@@ -2,8 +2,8 @@
     text-align: center;
     background-color:rgb(70, 59, 80);
     padding: 25px;
+    color: white;
 }
-
 
 a {
     text-decoration: none;
@@ -18,19 +18,18 @@ em {
     justify-content: center;
     flex-direction: column;
     align-items: center;
-
+    color: rgb(55, 19, 88);
 }
 
 
 .fotosopra {
     display: flex;
-    
-
 }
 
 
 .contenitore {
     display: flex;
+    flex-wrap: wrap;
     padding: 50px;
     background-color: rgb(122, 110, 133);
     justify-content: space-around;
@@ -47,4 +46,26 @@ button {
   transition: transform 0.2s ease, box-shadow 0.2s ease;
    transform: translateY(-2px);
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.testocentrale {
+    text-align: center;
+}
+
+.fotocentrale {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 50px;
+    justify-content: center;
+}
+
+.fotoo {
+    margin: 50px;
+    border-radius: 20px;
+}
+
+.carta {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
