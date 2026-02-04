@@ -1,3 +1,50 @@
+.nome {
+    text-align: center;
+    background-color:rgb(70, 59, 80);
+    padding: 25px;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+em {
+    font-size: 30px;
+}
+
+.testo {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+
+.fotosopra {
+    display: flex;
+    
+
+}
+
+
+.contenitore {
+    display: flex;
+    padding: 50px;
+    background-color: rgb(122, 110, 133);
+    justify-content: space-around;
+}
+
 button {
-text-decoration: none;
+    display: inline-block;
+  padding: 14px 30px;
+  background: linear-gradient(45deg, #dfd8d3, #dd2a7b, #8134af);
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  border-radius: 9999px; /* pillola */
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+   transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
 }
