@@ -86,3 +86,33 @@ button {
     font-size: large;
     padding-right: 400px;
 }
+
+.btn {
+    align-self: flex-end;
+    padding: 10px 24px;
+    background-color: #E1306C;
+    color: white;
+    border-radius: 8px;
+}
+
+.seguimi {
+    display: flex;
+    color: white;
+    margin: 200px;
+    padding: 50px;
+    background-color: rgb(70, 59, 80) ;
+    border-radius: 20px;
+    justify-content: space-around;
+}
+
+.chiusura {
+    background-color: rgb(70, 59, 80);
+    color:white;
+    text-align: center;
+}
+
+
+
+
+
+
